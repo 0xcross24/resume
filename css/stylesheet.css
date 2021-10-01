@@ -12,10 +12,6 @@
     font-family: TitilliumWeb-Regular;
     src: url(../fonts/TitilliumWeb-Regular.ttf);
 }
-html {
-    scroll-behavior: smooth;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -36,6 +32,7 @@ a {
     height: 100vh;
     padding: 2rem;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 #main-container {
@@ -148,6 +145,11 @@ a { color: inherit; }
     text-align: center;
     padding: 0;
     margin: 0;
+    height: 100%;
+}
+
+#github a:hover {
+    color: #fff;
 }
 
 .title {
@@ -161,11 +163,11 @@ a { color: inherit; }
 }
 
 #about-description {
-    font-family: TitilliumWeb-Regular;
+    font-family: TitilliumWeb-Light;
     font-size: 1.1rem;
 }
 
-.years {
+.years, .location {
     float: right;
 }
 
@@ -181,3 +183,34 @@ a { color: inherit; }
     padding-left: 2px;  
 }
 
+.work-subtitle, .work-title {
+    font-family: TitilliumWeb-Light;
+    font-size: 1.25rem;
+}
+
+.work-title {
+    padding-top: 1.5rem;
+}
+
+.work-subtitle {
+    padding-bottom: 1.5rem;
+}
+
+.work {
+    font-family: TitilliumWeb-Light;
+}
+
+#skill-table {
+    width: 100%;
+    margin-top: 1.5rem;
+    font-family: TitilliumWeb-Light;
+}
+
+.skill-row > th {
+    padding-top: 1.5rem;
+}
+
+td {
+    padding-right: 2rem;
+    vertical-align: top;
+}

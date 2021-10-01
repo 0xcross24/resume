@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="css/stylesheet.css" rel="stylesheet">
-</html>
+</head>
 
 <body>
     <div class="container-fluid">
@@ -20,8 +21,14 @@
                             <a class="nav-link" href="#certification">Certification</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#resume">Resume</a>
+                            <a class="nav-link" href="#experience">Experience</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Technical Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.linkedin.com/in/danny-moon-22828563/">LinkedIn</a>
                           </li>
@@ -40,10 +47,10 @@
                         <div class="container download">
                             <div class="row download-row">
                                 <div class="col-6 download-container" id="resume-container">
-                                    <h2 id="resume">Download Resume</h2>
+                                    <a href=""><h2 id="resume">Download Resume</h2></a>
                                 </div>
                                 <div class="col-6 download-container" id="github-container">
-                                    <h2 id="github"><a href="https://github.com/dannymoon-dev">Github</a></h2>
+                                    <h2 id="github"><a href="https://github.com/dannymoon-dev"><h2 id="github">Github</h2></a>
                                 </div>
                             </div>
                         </div>
@@ -63,16 +70,89 @@
                         <h2 class="certification-subtitle">CompTIA Security Analytics Profressional<span class="years">2019 - 2023</span></h2>
                         <h2 class="certification-subtitle">Virtual Hacking Labs Advanced<span class="years">2021</span></h2>
                     </div>
-                    <div class="container content-body" id="work-experience">
-                        <h1 class="title">Xandr</h1>
-                        <h2 class="subtitle">System Administrator II</h2>
+                    <div class="container content-body" id="experience">
+                        <h1 class="title">Experience</h1>
+                        <h2 class="work-title">Xandr<span class="years">2019 - Present</span></h2>
+                        <h2 class="work-subtitle">System Administrator II<span class="location">New York, NY</span></h2>
                         <ul class="work-list">
-                            <li class="work">Monitor</li>
-                            <li class="work">Monitor</li>
-                            <li class="work">Monitor</li>
-                            <li class="work">Monitor</li>
-                            <li class="work">Monitor</li>
+                            <li class="work">Work closely with Cybersecurity team to remediate any potential vulnerabilities found in the systems by applying security patches or establishing technical controls. </li>
+                            <li class="work">Integrate and deploy Web Application Firewall on all public facing applications.</li>
+                            <li class="work">Perform daily system monitoring, verifying the integrity and availability of all server resources, systems, and services through the internal monitoring system.</li>
+                            <li class="work">Maintain and update all applications and plugins such as Jira, Confluence, Bitbucket, etc. to the latest versions.</li>
+                            <li class="work">Generate and update all expiring certificates for all applications.</li>
+                            <li class="work">Provide user and group management through internal tools using LDAP protocol.</li>
+                            <li class="work">Deploy load balancers for applications demanding high traffics.</li>
+                            <li class="work">Maintain and update all Linux Window OS systems to the latest patches quarterly.</li>
+                            <li class="work">Resolve issues submitted through internal tickets within an agreed upon SLA.</li>
+                            <li class="work">Manage, deploy and integrate all new applications through the configuration management tool, Puppet.</li>
+                            <li class="work">Document known issues, configurations, procedures or any technical information on applications.</li>
+                            <li class="work">Ensure that new applications are propagated throughout the DNS.</li>
                         </ul>
+                        <h2 class="work-title">Penelope Institute<span class="years">2020 - 2021</span></h2>
+                        <h2 class="work-subtitle">Freelance<span class="location">Remote</span></h2>
+                        <ul class="work-list">
+                            <li class="work">Deployed and maintained environments for developers to develop web applications using Digital Ocean as the platform for instances.</li>
+                            <li class="work">Created a private in house environment to allow developers to access testing and staging during initial stage of development.</li>
+                            <li class="work">Configured NGINX to allow basic authentication, redirect HTTP to HTTPS and fail2ban tool to block brute force attempts on the server during the initial stage of development.</li>
+                            <li class="work">Developed and established connectivity between front-end and back-end servers using Strapi API and Gatsby. </li>
+                            <li class="work">Helped design and implement proper security rules for web applications following the OWASP Top 10 rules.</li>
+                            <li class="work">Communicated with the client on weekly basis to ensure that the development met its launch date.</li>
+                            <li class="work">Documented all work to allow the client to maintain and update all servers.</li>
+                        </ul>
+                        <h2 class="work-title">Lee-Eugene<span class="years">2018 - 2020</span></h2>
+                        <h2 class="work-subtitle">Freelance<span class="location">Remote</span></h2>
+                        <ul class="work-list">
+                            <li class="work">Built a front end website to allow the client to showcase his projects and work experiences.</li>
+                            <li class="work">Communicated daily and efficiently to meet the demands of the client's need. </li>
+                            <li class="work">Worked on both UI and UX design with the client to solve technical challenges.</li>
+                            <li class="work">Provided 6 months of tech support after the completion of the project to allow the client to maintain and update the server.</li>
+                        </ul>
+                        <h2 class="work-title">Hanwha Techwin<span class="years">2017 - 2019</span></h2>
+                        <h2 class="work-subtitle">Integration Engineer<span class="location">Teaneck, NJ</span></h2>
+                        <ul class="work-list">
+                            <li class="work">Reduced tech support call time by managing the documentation of known issues.</li>
+                            <li class="work">Worked closely with a developer to utilize Amazon Echo as a functionality with proprietary video management software, WiseNet Wave.</li>
+                            <li class="work">Deployed and maintained local virtual servers for Field Application and Sales Application Engineers.</li>
+                            <li class="work">Increased project won percentile by providing technical support for Hanwha Techwin's API integration.</li>
+                            <li class="work">Supported and integrated newest Hanwha IP Network Security Camera models to different video management software.</li>
+                            <li class="work">Supported and tested Secure Real-time Transport protocol on all Hanwha Techwin's security cameras.</li>
+                            <li class="work">Increased sales value by supporting sales team with monthly updates to upcoming integrations of Hanwha products with strategic partners.</li>
+                            <li class="work">Worked closely with the Product Management Team to contribute on new product feature implementations.</li>
+                        </ul>
+                    </div>
+                    <div class="container content-body" id="skills">
+                        <h1 class="title">Technical Skills</h1>
+                        <table id="skill-table">
+                            <tr class="skill-row">
+                                <th>Cyber Security</th>
+                                <th>Programming</th>
+                            </tr>
+                            <tr>
+                                <td>OWASP Top 10, Jack the Ripper and Hashcat, Metasploit, Reverse shell: Netcat, Python, PHP, and BASH, XXE Injection, Active and Passive reconnaissance: NMAP, Burpsuite, Wireshark, Exploit-db, Rapid7, CVE Details, Intrusion Detection System and Intrusion Prevention System</td>
+                                <td>HTML5, CSS, Bootstrap, Javascript, Node.js, Django, PHP, Laravel, BASH, MySQL, PostgresSQL, XML, JSON, APIs, Strapi, Gatsby</td>
+                            </tr>
+                            <tr class="skill-row">
+                                <th>Virtualization</th>
+                                <th>Operating Systems</th>
+                            </tr>
+                            <tr>
+                                <td>VMware vSphere, Microsoft Hyper-V, Virtual Box,  VMWare workstation, KVM, Xen</td>
+                                <td>Microsoft Windows, Mac OS, Linux: Ubuntu, Raspberry Pi OS, Kali Linux</td>
+                            </tr>
+                            <tr class="skill-row">
+                                <th>Networking</th>
+                                <th>Cloud and Configuration Management</th>
+                            </tr>
+                            <tr>
+                                <td>Configured ACL rules, managed and maintained SFTP server, created backups on NFS servers, configured and troubleshoot DNS related issues, generated and renewed certificates for different servers, setup redirection from HTTP to HTTPS on web application using apache</td>
+                                <td>Puppet, Docker, AWS, Digital Ocean</td>
+                            </tr>
+                        </table> 
+                    </div>
+                    <div class="container content-body" id="education">
+                        <h1 class="title">Education</h1>
+                        <h2 class="work-title">New Jersey Institute of Technology<span class="years">2014 - 2018</span></h2>
+                        <h2 class="work-subtitle">Bachelors of Science in Information Technology<span class="location">Newark, NJ</span></h2>
                     </div>
                 </div>
             </div>
@@ -83,3 +163,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+</html>
